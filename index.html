@@ -37,47 +37,16 @@
       <h4>Cuestionario</h4>
 
       <div class="mb-3">
-        <label>Hipótesis de tu proyecto</label>
-        <textarea class="form-control" id="hipotesis" rows="2"></textarea>
-      </div>
-
-      <div class="mb-3">
-        <label>Problema que resuelves</label>
-        <textarea class="form-control" id="problema" rows="2"></textarea>
-      </div>
-
-      <div class="mb-3">
-        <label>Solución propuesta</label>
-        <textarea class="form-control" id="solucion" rows="2"></textarea>
-      </div>
-
-      <div class="mb-3">
-        <label>¿Tienes un prototipo?</label>
+        <label>¿Cómo quieres que se evalue tu proyecto?</label>
         <select class="form-select" id="q1">
-          <option value="0">No</option>
-          <option value="1">Sí</option>
+          <option value="0">TRL (Nivel de madurez tecnológica)</option>
+          <option value="1">IRL (Nivel de madurez de la innovación)</option>
         </select>
       </div>
 
-      <div class="mb-3">
-        <label>¿Has probado con usuarios?</label>
-        <select class="form-select" id="q2">
-          <option value="0">No</option>
-          <option value="1">Sí</option>
-        </select>
-      </div>
-
-      <div class="mb-3">
-        <label>¿Tienes clientes o ingresos?</label>
-        <select class="form-select" id="q3">
-          <option value="0">No</option>
-          <option value="1">Sí</option>
-        </select>
-      </div>
-
-      <button class="btn btn-success w-100 mt-3" onclick="procesar()">
-        Finalizar
-      </button>
+	<button class="btn btn-success w-100 mt-3" onclick="irAResultados()">
+  	Continuar
+	</button>
 
     </div>
   </div>
@@ -94,42 +63,17 @@
 
       <div id="contenido" class="hidden">
 
-        <h5>Nivel estimado: TRL 3–4</h5>
+        <h5>Nivel estimado: TRL ---</h5>
 
         <p>
           Detectamos cómo tu hipótesis se traduce en tu modelo de negocio.
         </p>
 
-        <div class="row text-start">
-
-          <div class="col-md-4">
-            <div class="card p-3 mb-2">
-              <strong>Propuesta de valor</strong>
-              <p id="out_propuesta" class="small"></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card p-3 mb-2">
-              <strong>Actividades clave</strong>
-              <p id="out_actividades" class="small"></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card p-3 mb-2">
-              <strong>Socios clave</strong>
-              <p id="out_socios" class="small"></p>
-            </div>
-          </div>
-
-        </div>
-
         <p class="mt-3">
-          Accede a tu diagnóstico completo y próximos pasos.
+          Suscríbete y accede a tu diagnóstico completo y próximos pasos.
         </p>
 
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeavbJumqAzK0jd10roLrfw-6Cahvw-6sPSoWxsQol6ifzaQA/viewform?usp=sharing&ouid=107492130759574834101" target="_blank" class="btn btn-warning btn-lg">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScT_RzHEngae-zdtCdXh38VEXlK8S-aQ0dB7F2aZ6VfQt7GDg/viewform?usp=publish-editor">
           Ver resultados completos
         </a>
 

@@ -34,3 +34,11 @@ function procesar() {
     }
   }, 200);
 }
+function irAResultados() {
+  procesar();
+
+  window.open(
+    "https://docs.google.com/forms/d/e/1FAIpQLSeavbJumqAzK0jd10roLrfw-6Cahvw-6sPSoWxsQol6ifzaQA/viewform",
+    "_blank"
+  );
+}
